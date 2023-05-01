@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+/*        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }*/
+        body {
+            background-color: #f5f9fb;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Define a altura do body para ocupar toda a tela */
+}
+        .container {
+  background-color: #1c3faa;
+  width: 200px;
+  height: 200px;
+   border: 1px solid #1c3faa;
+  box-shadow: 0 0 10px rgba(28, 63, 170, 0.5);
+  background-image: linear-gradient(to bottom, #fff 0%, #f2f2f2 100%);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  transition: height 0.5s ease;
+  color: #555;
+}
+
+input:focus {
+  height: 30px;
+  outline: none;
+  box-shadow: 0 0 10px rgba(118, 118, 230, 0.926);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+    </style>
+</head>
+<body>
+    <nav class="container">    
+    <div>
+        <label for="login">Login:</label>
+        <input type="text" id="login">
+    </div>
+    <div>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+    </div>
+    </nav>
+</body>
+</html>

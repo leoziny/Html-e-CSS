@@ -1,0 +1,60 @@
+/* Estilização do body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilização dos títulos */
+  h2 {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 50px 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Estilização dos parágrafos */
+  p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+    text-align: justify;
+  }
+  
+  /* Estilização do primeiro título */
+  h2:first-of-type {
+    color: #fff;
+  }
+  
+  /* Estilização do primeiro título quando o mouse estiver em cima */
+  h2:first-of-type:hover {
+    background-color: #333;
+  }
+  
+  /* Estilização do segundo título */
+  h2:nth-of-type(2) {
+    color: #0000ff;
+    font-size: 28px;
+  }
+  
+  /* Estilização do terceiro título */
+  h2:nth-of-type(3) {
+    color: #8c8c8c;
+    font-style: italic;
+  }
+  
+  /* Estilização dos links */
+  a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  
+  /* Estilização dos links quando o mouse estiver em cima */
+  a:hover {
+    text-decoration: underline;
+  }
+  
